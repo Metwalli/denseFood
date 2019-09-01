@@ -1,5 +1,5 @@
 {
-    "learning_rate": 1e-3,
+    "learning_rate": 1e-2,
     "eps": 1.1e-5,
     "batch_size": 16,
     "num_epochs": 40,
@@ -10,7 +10,7 @@
     "bn_momentum": 0.9,
     "dropout_rate": 0.5,
     "compression_rate": 1.0,
-    "num_layers_per_block": [6, 8, 8, 6],
+    "num_layers_per_block": [6, 12, 24, 16],
 
     "image1_size": 224,
     "image2_size": 224,
@@ -21,13 +21,13 @@
     "save_period_step": 1,
 
     "data_dir": "/home/ai309/metwalli/data/VIREO/172",
-    "model_name": "densenet",
+    "model_name": "densefood",
     "results_path": "output/results.txt",
     "model_path"      : "output/model",
     "classifier_path" : "output/classifier",
     "use_imagenet_weights": true,
     "num_inputs" : 1,
-    "loss_fn": "softmax",
+    "loss_fn": "total",
     "decay": "cosine"
 
 }
