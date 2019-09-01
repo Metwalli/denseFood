@@ -1,0 +1,15 @@
+numpy
+Pillow
+tensorflow>=1.12.0
+tabulate
+tqdm
+tflearn =>0.3.2
+imutils ==0.5.2
+jupyter
+keras =>2.2.4
+matplotlib =>3.0.3
+notebook
+opencv-python
+scipy =>1.2.1
+opencv-python
+

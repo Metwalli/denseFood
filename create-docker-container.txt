@@ -1,0 +1,7 @@
+connect to ssh server
+ssh -L 18881:127.0.0.1:8881 shenwei@10.16.23.122
+
+docker run -it --rm --device=/dev/nvidia0:/dev/nvidia0 --device=/dev/nvidia1:/dev/nvidia --device=/dev/nvidia2:/dev/nvidia2 --device=/dev/nvidia3:/dev/nvidia3 --device=/dev/nvidia4:/dev/nvidia4 --device=/dev/nvidia5:/dev/nvidia5 --device=/dev/nvidia6:/dev/nvidia6 --device=/dev/nvidia7:/dev/nvidia7 --device=/dev/nvidiactl:/dev/nvidiactl --device=/dev/nvidia-uvm:/dev/nvidia-uvm --device=/dev/nvidia-uvm-tools:/dev/nvidia-uvm-tools -v /usr/local/docker-inspur/nvidia-volumes/volume:/usr/local/nvidia -v /home/shenwei/metwalli:/notebooks ctrimg bash
+
+
+python train.py --data_dir /home/ai309/metwalli/data/VIREO/food172 --model_dir experiments/172/baseline/densenet-scratch
