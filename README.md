@@ -8,7 +8,7 @@ In the latest years, there is dramatic consideration on using technology in many
 Recently, Convolutional Neural Network (CNN) is used in the context of food recognition. Food recognition methods uses CNN models to extract food image features, compute the similarity of food image features and use classification techniques to train the classifier to accomplish food recognition.
 </p>
 <h1>Proposed Method</h1>
-<img src="dense_connectivity.jpg"/>
+<img src="dense_connectivity.JPG"/>
 <p>
 The proposed model presented called DenseFood, which is based on DenseNet architecture
 </p>
