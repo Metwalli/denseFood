@@ -66,18 +66,11 @@ num_layers_per_block = params.num_layers_per_block
 INPUT1_DIMS = (params.image1_size, params.image1_size, 3)
 INPUT2_DIMS = (params.image2_size, params.image2_size, 3)
 seed      = 2019
-results     = params.results_path
-classifier_path = params.classifier_path
-model_path = params.model_path
 model_name = params.model_name
 use_imagenet_weights = params.use_imagenet_weights
 save_period_step = params.save_period_step
 num_inputs = params.num_inputs
 history_filename = os.path.join(model_dir, "train_fit_history.json")
-
-if data_dir is None:
-    data_dir = params.data_dir
-
 
 # Dataset Directory
 train_dir = os.path.join(data_dir, "train")
