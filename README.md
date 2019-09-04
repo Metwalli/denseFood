@@ -1,6 +1,6 @@
 # denseFood: Food Recognition Based on Densely Connected Convolutional Networks
 <img src="img-1.jpg"/>
-<h1> Introduction <h1/>
+<h1> Introduction </h1>
 <p>
 In the latest years, there is dramatic consideration on using technology in many fields especially when we use the artificial intelligence to make our life easy. Due to the increase using of computer vision technology in many domains like surveillance cameras, healthcare, etc.. Food recognition is one of these important fields and deserves more research efforts because of its practical importance and scientific challenges
 </p>
