@@ -1,4 +1,5 @@
 # denseFood: Food Recognition Based on Densely Connected Convolutional Networks
+## <a href="https://ieeexplore.ieee.org/document/9065281">Published Paper</a>
 <img src="img-1.jpg"/>
 <h1> Introduction </h1>
 <p>
@@ -13,6 +14,18 @@ Recently, Convolutional Neural Network (CNN) is used in the context of food reco
 The proposed model presented called DenseFood, which is based on DenseNet architecture
 </p>
 <h1>Experiment</h1>
+<h2>Requirments</h2>
+<ul>
+  <li> Tensorflow</li>
+  <li> Keras</li>
+  <li> Numpy</li>
+  <li> matplotlib</li>
+</ul>
+<h2>Dataset</h2>
+<p>
+VIREO-FOOD dataset is a large food database for public Chinese dishes.
+  <a href="http://vireo.cs.cityu.edu.hk/VireoFood172/">http://vireo.cs.cityu.edu.hk/VireoFood172/</a>
+</p>
 <p>
 Let's to divide the dataset into two sub dataset for training and testing by run this script
 </p>
